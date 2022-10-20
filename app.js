@@ -8,7 +8,6 @@ form.addEventListener("submit", addBook)
 table.addEventListener('click', deleteBook)
 document.addEventListener('DOMContentLoaded', getBooks)
 
-
 function addBook(e){
     const row = table.insertRow(-1);
     const cell1 = row.insertCell(0);
